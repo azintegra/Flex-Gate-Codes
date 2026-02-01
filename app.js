@@ -137,13 +137,11 @@ function buildGroups(flattened, tab) {
       let groupMeta = '';
 
       if (kind === 'apartments') {
-        groupName = normalizeCommunity(apt) || commLabel || 'Apartments';
-        groupMeta = [city, neighborhood].filter(Boolean).join(' • ');
-      } else if (kind === 'businesses') {
+        groupName = normalizeCommunity(apt) || commLabel || 'Apartments';      } else if (kind === 'businesses') {
         groupName = normalizeCommunity(biz) || commLabel || 'Businesses';
         groupMeta = city || '';
       } else {
-        groupName = neighborhood || commLabel || 'Other';
+        groupName = commLabel || 'Other';
         groupMeta = city || '';
       }
 

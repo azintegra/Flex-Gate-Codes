@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Gate & Locker Codes</title>
+
+  <meta name="theme-color" content="#111" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- iOS PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Gate Codes" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <header>
+    <h1>Amazon Flex — Gate & Locker Codes</h1>
+    <input type="text" id="search" placeholder="Search by address, apartment, community, or code" autocomplete="off" />
+    <div class="tabs" role="tablist" aria-label="Filter">
+      <button id="tab-apts" class="tab active" data-tab="apartments" role="tab" aria-selected="true">🏢 Apartments</button>
+      <button id="tab-res" class="tab" data-tab="residential" role="tab" aria-selected="false">🏠 Residential</button>
+      <button id="tab-biz" class="tab" data-tab="businesses" role="tab" aria-selected="false">🏪 Businesses</button>
+      <button id="tab-all" class="tab" data-tab="all" role="tab" aria-selected="false">📍 All</button>
+    </div>
+    <div id="summary"></div>
+  </header>
+
+  <main id="list"></main>
+
+  <div id="toast" class="toast" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3084 @@
+[
+  {
+    "community": "3538 Romero",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "Absolute Windows #148",
+        "gate": "5689",
+        "alternate": "",
+        "locker": "",
+        "apartment": "3538 Romero",
+        "business": "Absolute Windows",
+        "type": "business",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Agave Apartments",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "444 W Orange Grove Rd",
+        "gate": "6417",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Barrio Viejo",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "201 S Stone Ave #502",
+        "gate": "3171",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Bear Canyon",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "2238 N Catalina Vista Loop",
+        "gate": "8618",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Bear Canyon Apartments",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "9055 E Catalina Hwy",
+        "gate": "4621",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Campus Crossings at Star Pass",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "2525 W Anklam Rd",
+        "gate": "2525",
+        "alternate": "",
+        "locker": "",
+        "apartment": "Campus Crossings at Star Pass",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "West Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Casas Adobes / Northwest Tucson",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "4701 E Ina Rd",
+        "gate": "7003",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "5101 N Glencoe Rd",
+        "gate": "2942",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "5203 W Brentwood Ln",
+        "gate": "5225",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "7759 N Silverbell Rd",
+        "gate": "6545",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "8150 N La Cholla Blvd Unit 6206",
+        "gate": "9826",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "8720 N Ribbon Grass Ave",
+        "gate": "5871",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Enclave de Nube",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "12595 E Fort Lowell Rd",
+        "gate": "6752",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "4121 E San Simeon",
+        "gate": "5862",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "4231 E Pontatoc Canyon Dr",
+        "gate": "6727",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "4302 N Hacienda Del Sol Rd",
+        "gate": "1271",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "4303 Evening Mist Ln",
+        "gate": "5146",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "4389 E Desert Oak Trail",
+        "gate": "9833",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "4500 E Sunrise Dr N04",
+        "gate": "8367",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "4838 N Bonita Ridge Ave",
+        "gate": "1492",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "5655 N 1st Ave",
+        "gate": "0104",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "6909 E Cloud Rd",
+        "gate": "3110",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "7224 E Knollwood Dr",
+        "gate": "3257",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "7384 E Placita Positivo",
+        "gate": "7515",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      },
+      {
+        "address": "7422 E Calle Convidado",
+        "gate": "0007",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Central Tucson",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "111 S Church Ave",
+        "gate": "7895",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1150 N 7th Ave",
+        "gate": "1912",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "119 W Navajo St",
+        "gate": "7016#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "123 W Delano St",
+        "gate": "0514",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1240 N 7th Ave",
+        "gate": "1007#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1401 N Oracle Rd",
+        "gate": "3120",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1410 N Oracle Rd",
+        "gate": "7308",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1501 N Oracle Rd",
+        "gate": "Call Box",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1560 W Fort Lowell",
+        "gate": "7025",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1800 N Stone Ave",
+        "gate": "a",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1889 N Oracle Rd",
+        "gate": "5250",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "210 W Elm",
+        "gate": "0220#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "211 W King St",
+        "gate": "2323",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "238 W Ventura St",
+        "gate": "1102",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "250 E Grant Rd",
+        "gate": "1234",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2545 N Geronimo St",
+        "gate": "1661",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "255-243 E Delano St",
+        "gate": "1225 Enter",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2602 N 14th Ave",
+        "gate": "20624",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2621 N Estrella Ave",
+        "gate": "2621 si",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2650 N Oracle Rd",
+        "gate": "05634",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2701 N Oracle Rd",
+        "gate": "1919",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2727 N Oracle Rd",
+        "gate": "0126",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2801 N Oracle Rd",
+        "gate": "1106",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2929 N Castro Ave",
+        "gate": "4537",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3015 N Estrella",
+        "gate": "8777",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3015 N Fontana Ave",
+        "gate": "8777",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3020 N Balboa",
+        "gate": "0982#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "349 E Calle Arizona",
+        "gate": "5810",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "350 E Congress St",
+        "gate": "3035",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3533 N Estrella",
+        "gate": "41268 or #9011",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3985 N Stone Ave",
+        "gate": "1315",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "4045 N Oracle Rd",
+        "gate": "Go To M Manac",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "405 E Kelso St",
+        "gate": "11356",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "405 E Prince Rd",
+        "gate": "27037#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "415 E University Blvd",
+        "gate": "2580#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "450 E Kelso St",
+        "gate": "4637#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "455 E Kelso St",
+        "gate": "11356#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "4700 W Prince Rd",
+        "gate": "8888",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "50 W King St",
+        "gate": "6590#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "500 N Highland Ave",
+        "gate": "2020",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "513 W Oury St",
+        "gate": "1121",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "515 N Tyndall Ave E405",
+        "gate": "8318",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "517 E Calle Arizona",
+        "gate": "1261#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "602 N Highland Ave",
+        "gate": "1730",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "638 E Elm St",
+        "gate": "3052",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "835 N 6th Ave",
+        "gate": "3241 Enter",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "900 E 2nd St",
+        "gate": "0354",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "902 S 6th Ave",
+        "gate": "5563",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "905 N Tyndall Ave",
+        "gate": "0820",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Central Tucson Additions",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "2291 N Powder Horn Dr",
+        "gate": "4128",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Central Tucson Additions",
+        "city": "Tucson"
+      },
+      {
+        "address": "245-2489 Paseo Rancho Esperanza",
+        "gate": "2030 / 0351",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Central Tucson Additions",
+        "city": "Tucson"
+      },
+      {
+        "address": "4802-4862 N Bonita Ridge Ave",
+        "gate": "1492",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Central Tucson Additions",
+        "city": "Tucson"
+      },
+      {
+        "address": "5505 S Mission Rd (Mission Tierra Apts)",
+        "gate": "",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Central Tucson Additions",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Continental Ranch",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "102-7178 W Ina Rd",
+        "gate": "ATE",
+        "alternate": "5100/4524",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "10644 N Cactus Point Dr",
+        "gate": "5225",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "12000 W Emigh Rd",
+        "gate": "80723",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "12001 W Calle Madero",
+        "gate": "1029",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "12051 W Fort Lowell Rd",
+        "gate": "2591#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "440-7496 W Ina Rd",
+        "gate": "0610",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "5555 W Ina Rd",
+        "gate": "9266",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "600 W Ina Rd",
+        "gate": "19",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "606 W Sugar Ranch Rd",
+        "gate": "8608",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "6670 N Camino Verde",
+        "gate": "0518#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "8705 N Scenic Dr",
+        "gate": "5558#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "901 N Cortaro Rd",
+        "gate": "1224",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Continental Reserve",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "6101 W Arizona Pavilions Dr",
+        "gate": "6101",
+        "alternate": "",
+        "locker": "221580",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Cortland on the Loop",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "50 W River Rd",
+        "gate": "6160",
+        "alternate": "",
+        "locker": "",
+        "apartment": "Cortland on the Loop",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Coyote Ridge",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "846 W Sleeping Snake Pl",
+        "gate": "1978",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Descanso Estates",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "10504 E Camino Palo Verde",
+        "gate": "2511",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tanque Verde / Foothills East",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Desert Willow Ranch",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "2468 N Wychwood Ct",
+        "gate": "2580",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Dove Mountain",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "13960 N Sonoran Links Ct",
+        "gate": "5150",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "14116 N Desert Spoon Pass",
+        "gate": "1010",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "14295 N Chaparral Sage Rd",
+        "gate": "2434",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "1601 W Rattlesnake Pass",
+        "gate": "8811",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "1722 W Hawk Owl Way",
+        "gate": "0612",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "1745 N Water Pl",
+        "gate": "1102",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "1745 W Placita Del Rio",
+        "gate": "1745",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "1772 N Renoir Way",
+        "gate": "2017",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "1820 W Placita De La Cotonia",
+        "gate": "3928",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "2062 N Whispering Bells Dr",
+        "gate": "3741",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "2537 N Yellow Flower Trl",
+        "gate": "2830",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "3191 N Spirit Dancer Trl",
+        "gate": "1112",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "3335 N Bear Spring Trl",
+        "gate": "6157",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "4050 W Aerie Dr",
+        "gate": "9855",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "4072 W Rawley Mine Ct",
+        "gate": "9876",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "West Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "4711 W Lone Dove Dr",
+        "gate": "8145",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "4874 W Dove Nest Pl",
+        "gate": "1604",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "5133 N Pelican River Way",
+        "gate": "2442",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "5787 W Silent Wash Pl",
+        "gate": "1131",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "5961 W Copper Leaf Dr",
+        "gate": "9261",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "5965 W Rough Rider Pl",
+        "gate": "6506",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "6125 W Two Quail Ct",
+        "gate": "1125",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "6148 W Seven Saguaros Cir",
+        "gate": "8442",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "East Tucson",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "1530 E Snyder Rd",
+        "gate": "0354",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3381 N Camino La Jicarilla",
+        "gate": "8342",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3423 N Camino La Jicarilla",
+        "gate": "4295",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3898 N Camino Ojo De Agua",
+        "gate": "3434",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "6101 E Gehrig Ln",
+        "gate": "7007",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "El Presidio",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "Tucson, AZ 85701",
+        "gate": "",
+        "alternate": "",
+        "locker": "Locker code 1920 #1837",
+        "apartment": "",
+        "business": "",
+        "type": "misc",
+        "neighborhood": "Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Empire Vista",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "2414 E Agave Vista Dr",
+        "gate": "2981",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Flowing Wells",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "4111 N Flowing Wells",
+        "gate": "0290",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Foothills / Sabino",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "7430 E Calle Perpetuo",
+        "gate": "2030 0351",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Foothills / Sabino",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Frito Lay N. I-10 Frontage",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "Frito Lay N I-10 Frontage",
+        "gate": "0630#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "Frito Lay N. I-10 Frontage",
+        "type": "business",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Green Valley",
+    "description": "",
+    "region": "Oro Valley",
+    "addresses": [
+      {
+        "address": "1219 W Cholla Crest Dr",
+        "gate": "2355",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      }
+    ]
+  },
+  {
+    "community": "Haciendas Catalina del Rey",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "5732 N Calle De La Reina",
+        "gate": "9511",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Keeling",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "557 W Thurber St",
+        "gate": "5050",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "La Reserve",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "2133 E Buck Ridge Pl",
+        "gate": "7032",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Lakes at Castle rock",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "9433 E Star Water Dr",
+        "gate": "0553",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Lakes at castle rock",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "9247 E Lakeside Ct",
+        "gate": "1957",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Lakeside Park Area",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Limberlost",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "801 W Limberlost Dr",
+        "gate": "4909",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Luna Azul",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "6300 / 6380 N Camino Verde",
+        "gate": "6262",
+        "alternate": "",
+        "locker": "",
+        "apartment": "Luna Azul",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Marana",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "3666 W Cottonwood Wash Way",
+        "gate": "0185",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Mira Vista Estates",
+    "description": "",
+    "region": "Oro Valley",
+    "addresses": [
+      {
+        "address": "12143 E Mira Vista Canyon Pl",
+        "gate": "6977",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      }
+    ]
+  },
+  {
+    "community": "Mira Vista Resort",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "7525 N Wade Rd",
+        "gate": "6854",
+        "alternate": "",
+        "locker": "",
+        "apartment": "Mira Vista Resort",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Miracle Mile",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "1202 W Miracle Mile",
+        "gate": "1210",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Montage Vista",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "2956 W Encelia Ct",
+        "gate": "9031",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Navajo Apartment",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "104 W Navajo St",
+        "gate": "5892#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Oro Valley / Northwest",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "2305 W Naranja Dr, Oro Valley",
+        "gate": "8479",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Oro Valley / Northwest",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Park Place Apartments",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "2363 E Orange Grove Rd",
+        "gate": "1074",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Pima Canyon Apartments",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "750 W Orange Grove Rd",
+        "gate": "6160",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Pusch Ridge Vistas",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "10 W Desert Knoll Pl",
+        "gate": "0820",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Rancho Agua Dulce",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "4100 W Rocky Spring Dr",
+        "gate": "2542",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "West Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Rancho Sahuarita",
+    "description": "",
+    "region": "Sahuarita",
+    "addresses": [
+      {
+        "address": "1163 W Calle De Sotelo",
+        "gate": "1163",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "1289 W Via Cerro Colorado",
+        "gate": "2784",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "1343 W Vuelta Oruga",
+        "gate": "4967",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "15180 S Camino Del Velero",
+        "gate": "5765",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "2073 W Revayah Pl",
+        "gate": "2022",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "7800 S Bonanza Park Dr",
+        "gate": "1115",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "7855 S Bonanza Park Dr",
+        "gate": "0099",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "7935 S Bonanza Park Dr",
+        "gate": "7979",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "8014 S Golden Bell Dr",
+        "gate": "2122",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "8673 S Long Bar Ranch Pl",
+        "gate": "1323",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      }
+    ]
+  },
+  {
+    "community": "Rancho Vistoso",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "10430 N Stargazer Dr",
+        "gate": "5433",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "10767 N Cactus Point Dr",
+        "gate": "0018 1026",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11247 N Big Star Trail",
+        "gate": "5225 1984",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "11274 N Gemini Dr",
+        "gate": "0201",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11449 N Meadow Sage Dr",
+        "gate": "5515",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11470 N Ironwood Canyon Pl",
+        "gate": "1818",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11470 N Ironwood Canyon Place",
+        "gate": "1818",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11532 N Desert Calico Loop",
+        "gate": "2797",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "11573 N Copperbelle Pl",
+        "gate": "7549",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11583 N Ironwood Canyon Pl",
+        "gate": "1818 / 3232",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Oro Valley / Northwest",
+        "city": "Tucson"
+      },
+      {
+        "address": "11750 N Sweet Orange Pl",
+        "gate": "1005 8665",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11794 N Silverscape Dr",
+        "gate": "3275",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11829 N Raphael Way",
+        "gate": "0306",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "11831 N Raphael Way",
+        "gate": "0819",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "12210 N Lopez Wells Ln",
+        "gate": "1523",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "12301 N Cloud Ridge Dr",
+        "gate": "6458",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "12309 N Washbed Dr",
+        "gate": "0852",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "12490 N Faraway Wash Trl",
+        "gate": "7677",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "12523 N New Reflection Dr",
+        "gate": "1521",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "13169 N Rainbow Cactus Ct",
+        "gate": "5863",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "13215 N Velvetweed Ct",
+        "gate": "1031",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "13330 N Cape Marigold Dr",
+        "gate": "1331",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "13359 N Cottontop Ct",
+        "gate": "9172",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "13401 N Rancho Vistoso Blvd",
+        "gate": "9515",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "13409 N Mariposa Lily Dr",
+        "gate": "1225",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "13468 N Silver Cassia Pl",
+        "gate": "9525",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "13710 N Carlynn Cliff Dr",
+        "gate": "1269",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "1644 W Sage Hill Dr",
+        "gate": "5066",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "1970 W Old Magee Trl Apt 5202",
+        "gate": "1970",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "2225 W Sculptor St",
+        "gate": "2012 1815",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "2305 W Naranja Dr",
+        "gate": "8479",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "365 E Day Flower Dr",
+        "gate": "2825",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "5238 N Corral Canyon Pl",
+        "gate": "9775",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "625 N Arizona Estates Loop",
+        "gate": "2380",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      },
+      {
+        "address": "7963 N Placita Del Chango",
+        "gate": "4000",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      }
+    ]
+  },
+  {
+    "community": "Ridgeline Apartments",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "3980 W Linda Vista Blvd",
+        "gate": "3980",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Rincon Heights",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "934 N 6th Ave",
+        "gate": "2154",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Rincon Valley / Saguaro East",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "4198 S Saguaro Monument Pl",
+        "gate": "8765",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Rincon Valley / Saguaro East",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Rita Ranch",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "238 E Allthorn Pl",
+        "gate": "0852",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "945 W Golden Barrel Ct",
+        "gate": "1559",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Ruthrauff",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "2305 W Ruthrauff Rd",
+        "gate": "1111",
+        "alternate": "2305",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Sabino Canyon",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "1440 N Tanque Verde Loop Rd",
+        "gate": "0616",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "East Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Sabino Vista Apartments",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "3515 N Sabino Canyon Rd",
+        "gate": "3515",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Catalina Foothills",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Sahara Apartments",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "919 N Stone Ave",
+        "gate": "a",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Sahuarita",
+    "description": "",
+    "region": "Sahuarita",
+    "addresses": [
+      {
+        "address": "1321 W Vuelta Arvizu",
+        "gate": "2933",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      },
+      {
+        "address": "262 E Placita Haciendas del Lago",
+        "gate": "1201",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Sahuarita",
+        "city": "Sahuarita"
+      }
+    ]
+  },
+  {
+    "community": "Shadows at Sabino Canyon",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "4333 W Mountain Quail Rd",
+        "gate": "1200",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "West Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Silverbell Gateway",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "430 N Silverbell Rd",
+        "gate": "0001",
+        "alternate": "Mailroom: 7431# 255583,",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      },
+      {
+        "address": "59 N Silverbell Rd",
+        "gate": "65450",
+        "alternate": "623698",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "South Tucson",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "19190 S Alpha Ave Apt 8104",
+        "gate": "1172",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "South Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3090 E Weymouth St",
+        "gate": "3035",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "South Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "4200 E Benson Hwy F8 F8",
+        "gate": "7777",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "South Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "South Tucson / Southwest",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "5505 S Mission Rd",
+        "gate": "5555",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "South Tucson / Southwest",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Stardance Event Center",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "8110 N Scenic Dr",
+        "gate": "4184",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "Stardance Event Center",
+        "type": "business",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Sunrise Ranch",
+    "description": "",
+    "region": "Oro Valley",
+    "addresses": [
+      {
+        "address": "11200 E Sunrise Ranch Pl",
+        "gate": "2650",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      }
+    ]
+  },
+  {
+    "community": "Sunset Canyon Estates",
+    "description": "",
+    "region": "Oro Valley",
+    "addresses": [
+      {
+        "address": "11851 N Mesquite Sunset Pl",
+        "gate": "7467",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      }
+    ]
+  },
+  {
+    "community": "Sunset Dunes",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "4800 Sunset Rd",
+        "gate": "1058",
+        "alternate": "1927 Open / 8501",
+        "locker": "",
+        "apartment": "Sunset Dunes",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Tangerine Crossing",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "3407 W Copper Spirit Dr",
+        "gate": "9765",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "West Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "3443 W Wing Tip Dr",
+        "gate": "0429",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Tanque Verde / Foothills East",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "10698 E Keystone Rd",
+        "gate": "2424",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tanque Verde / Foothills East",
+        "city": "Tucson"
+      },
+      {
+        "address": "11543 E Sundance Dr",
+        "gate": "2914",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tanque Verde / Foothills East",
+        "city": "Tucson"
+      },
+      {
+        "address": "2201 N Powder Horn Dr",
+        "gate": "4128",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tanque Verde / Foothills East",
+        "city": "Tucson"
+      },
+      {
+        "address": "3630 N Avenida De La Colina",
+        "gate": "4018",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tanque Verde / Foothills East",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Lakes at Castle Rock",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "2444 N Lightning A Dr",
+        "gate": "5219",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "The Gallery at Dove Mountain",
+    "description": "",
+    "region": "Oro Valley",
+    "addresses": [
+      {
+        "address": "14204 N Silent Ridge Ct",
+        "gate": "8538",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Oro Valley",
+        "city": "Oro Valley"
+      }
+    ]
+  },
+  {
+    "community": "The Pines",
+    "description": "",
+    "region": "Marana",
+    "addresses": [
+      {
+        "address": "8480 N Continental Links Dr",
+        "gate": "0124",
+        "alternate": "",
+        "locker": "",
+        "apartment": "The Pines",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "Union on 6th",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "316 & 340 E 6th St",
+        "gate": "0340#",
+        "alternate": "",
+        "locker": "",
+        "apartment": "Union on 6th",
+        "business": "",
+        "type": "apartment",
+        "neighborhood": "Central Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Vail",
+    "description": "",
+    "region": "Vail",
+    "addresses": [
+      {
+        "address": "10753 S Miralago Dr",
+        "gate": "9292",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Vail",
+        "city": "Vail"
+      },
+      {
+        "address": "13740 S Bee Bonnet Ct",
+        "gate": "3535",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Vail",
+        "city": "Vail"
+      },
+      {
+        "address": "14162 E Huppenthal Blvd",
+        "gate": "1730",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Vail",
+        "city": "Vail"
+      },
+      {
+        "address": "1431 E Lower Mine Ln",
+        "gate": "1431",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Vail",
+        "city": "Vail"
+      },
+      {
+        "address": "36 E Peralta Canyon Ct",
+        "gate": "1615",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Vail",
+        "city": "Vail"
+      },
+      {
+        "address": "6795 E Calle La P",
+        "gate": "0669",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Vail",
+        "city": "Vail"
+      },
+      {
+        "address": "8778 E Corte Del Sol Bonito",
+        "gate": "8786",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Vail",
+        "city": "Vail"
+      }
+    ]
+  },
+  {
+    "community": "Village at Orilla del Rio",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "2389 E Autumn Flower Dr",
+        "gate": "1911",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Tucson",
+        "city": "Tucson"
+      },
+      {
+        "address": "2446 E Blue Diamond Dr",
+        "gate": "2446",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Marana",
+        "city": "Marana"
+      }
+    ]
+  },
+  {
+    "community": "West Tucson",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "1834 W Mountain Mirage Blvd",
+        "gate": "1193",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "West Tucson",
+        "city": "Tucson"
+      }
+    ]
+  },
+  {
+    "community": "Zona Rio Apartments",
+    "description": "",
+    "region": "Tucson",
+    "addresses": [
+      {
+        "address": "1001 W Saint Marys Rd",
+        "gate": "8762",
+        "alternate": "",
+        "locker": "",
+        "apartment": "",
+        "business": "",
+        "type": "residential",
+        "neighborhood": "Casas Adobes / Northwest Tucson",
+        "city": "Tucson"
+      }
+    ]
+  }
+]

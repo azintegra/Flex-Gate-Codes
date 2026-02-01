@@ -1,39 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Gate & Locker Codes</title>
-
-  <meta name="theme-color" content="#111" />
-  <meta name="format-detection" content="telephone=no" />
-
-  <!-- iOS PWA -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="Gate Codes" />
-  <link rel="apple-touch-icon" href="icons/icon-192.png" />
-
-  <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0f14" />
+  <title>Amazon Flex — Gate & Locker Codes</title>
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <header>
-    <h1>Amazon Flex — Gate & Locker Codes</h1>
-    <input type="text" id="search" placeholder="Search by address, apartment, community, or code" autocomplete="off" />
-    <div class="tabs" role="tablist" aria-label="Filter">
-      <button id="tab-apts" class="tab active" data-tab="apartments" role="tab" aria-selected="true">🏢 Apartments</button>
-      <button id="tab-res" class="tab" data-tab="residential" role="tab" aria-selected="false">🏠 Residential</button>
-      <button id="tab-biz" class="tab" data-tab="businesses" role="tab" aria-selected="false">🏪 Businesses</button>
-      <button id="tab-all" class="tab" data-tab="all" role="tab" aria-selected="false">📍 All</button>
-    </div>
-    <div id="summary"></div>
+  <header class="app-header">
+    <h1>Amazon Flex — Gate &amp; Locker<br/>Codes</h1>
   </header>
 
-  <main id="list"></main>
+  <main class="container">
+    <section class="search-card">
+      <input id="q" class="search" type="search" placeholder="Search by address, apartment, community, or code" autocomplete="off" />
+      <div class="pill-row" role="tablist" aria-label="Filters">
+        <button class="pill" data-filter="apartments" type="button">🏢 Apartments</button>
+        <button class="pill" data-filter="residential" type="button">🏠 Residential</button>
+        <button class="pill" data-filter="businesses" type="button">🏪 Businesses</button>
+        <button class="pill" data-filter="all" type="button">📍 All</button>
+      </div>
+      <div id="summary" class="summary"></div>
+    </section>
 
-  <div id="toast" class="toast" aria-live="polite" aria-atomic="true"></div>
+    <section id="groups" class="groups" aria-live="polite"></section>
+  </main>
 
-  <script src="app.js"></script>
+  <template id="groupTpl">
+    <article class="group-card">
+      <button class="group-head" type="button">
+        <div class="group-title"></div>
+        <div class="group-right">
+          <span class="badge"></span>
+          <span class="chev">›</span>
+        </div>
+      </button>
+      <div class="group-meta"></div>
+      <div class="items"></div>
+    </article>
+  </template>
+
+  <template id="itemTpl">
+    <div class="item">
+      <div class="item-left">
+        <div class="item-line">
+          <span class="pin">📍</span>
+          <span class="addr"></span>
+        </div>
+        <div class="item-sub"></div>
+        <div class="code-row">
+          <span class="code-label">Gate:</span>
+          <span class="code"></span>
+          <button class="copy" type="button" title="Copy code">⧉</button>
+        </div>
+      </div>
+      <div class="item-right">
+        <a class="maps" target="_blank" rel="noopener">Maps</a>
+      </div>
+    </div>
+  </template>
+
+  <script src="./app.js"></script>
+  <script>
+    // Bulletproof SW: never caches app.js/data.json/index.html
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', async () => {
+        try {
+          const reg = await navigator.serviceWorker.register('./service-worker.js?v=1');
+          // If an update is waiting, activate immediately
+          if (reg.waiting) reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+          reg.addEventListener('updatefound', () => {
+            const sw = reg.installing;
+            if (!sw) return;
+            sw.addEventListener('statechange', () => {
+              if (sw.state === 'installed' && navigator.serviceWorker.controller) {
+                // Reload once to pick up new app/data reliably
+                window.location.reload();
+              }
+            });
+          });
+        } catch (e) { /* ignore */ }
+      });
+    }
+  </script>
 </body>
 </html>

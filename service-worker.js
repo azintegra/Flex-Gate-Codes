@@ -1,97 +1,81 @@
 /**
- * Gate Codes PWA Service Worker (GH Pages safe)
- * Goals:
- *  - NEVER serve stale data.json (network-only + cache-bust fallback disabled)
- *  - Keep index.html and app.js fresh (network-first)
- *  - Cache CSS + icons for fast load/offline (cache-first)
+ * Flex Gate Codes SW (bulletproof)
+ * - Never cache index.html, app.js, data.json (prevents stale grouping/names)
+ * - Cache style/icons/manifest for speed/offline
  */
-const VERSION = 'v11';
-const CACHE_NAME = `gatecodes-${VERSION}`;
+const VERSION = "v1";
+const CACHE = `flex-gate-codes-static-${VERSION}`;
 
-// Static assets that are safe to cache long-ish
-const STATIC_ASSETS = [
-  './style.css',
-  './manifest.json',
-  './icon-192.png',
-  './icon-512.png'
+const STATIC = [
+  "./style.css",
+  "./manifest.json",
+  "./icon-192.png",
+  "./icon-512.png",
+  "./.nojekyll"
 ];
 
-// Install: pre-cache static assets only
-self.addEventListener('install', (event) => {
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") self.skipWaiting();
+});
+
+self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS)).catch(() => {})
+    caches.open(CACHE).then((c) => c.addAll(STATIC)).catch(() => {})
   );
   self.skipWaiting();
 });
 
-// Activate: clear old caches
-self.addEventListener('activate', (event) => {
+self.addEventListener("activate", (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)));
+    await Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)));
     await self.clients.claim();
   })());
 });
 
-async function cacheFirst(request) {
-  const cache = await caches.open(CACHE_NAME);
-  const cached = await cache.match(request);
+async function cacheFirst(req) {
+  const cache = await caches.open(CACHE);
+  const cached = await cache.match(req, { ignoreSearch: true });
   if (cached) return cached;
-  const res = await fetch(request);
-  if (res && res.ok) cache.put(request, res.clone());
+  const res = await fetch(req);
+  if (res && res.ok) cache.put(req, res.clone());
   return res;
 }
 
-async function networkFirst(request) {
-  const cache = await caches.open(CACHE_NAME);
-  try {
-    const res = await fetch(request, { cache: 'no-store' });
-    if (res && res.ok) cache.put(request, res.clone());
-    return res;
-  } catch (e) {
-    const cached = await cache.match(request);
-    if (cached) return cached;
-    throw e;
-  }
-}
-
-self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET') return;
-
+self.addEventListener("fetch", (event) => {
+  if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
-
-  // Only handle same-origin
   if (url.origin !== self.location.origin) return;
 
-  // ✅ Never cache/serve stale data.json — always hit network
-  if (url.pathname.endsWith('/data.json')) {
-    event.respondWith(fetch(event.request, { cache: 'no-store' }));
-    return;
-  }
-
-  // Keep HTML + JS fresh (prevents "old UI" problems)
-  if (url.pathname.endsWith('/') || url.pathname.endsWith('/index.html') || url.pathname.endsWith('/app.js')) {
-    event.respondWith(networkFirst(event.request));
-    return;
-  }
-
-  // Cache-first for safe static assets (CSS/icons/manifest)
+  // Never cache critical files
   if (
-    url.pathname.endsWith('/style.css') ||
-    url.pathname.endsWith('/manifest.json') ||
-    url.pathname.endsWith('/icon-192.png') ||
-    url.pathname.endsWith('/icon-512.png')
+    url.pathname.endsWith("/") ||
+    url.pathname.endsWith("/index.html") ||
+    url.pathname.endsWith("/app.js") ||
+    url.pathname.endsWith("/data.json")
+  ) {
+    event.respondWith(fetch(event.request, { cache: "no-store" }));
+    return;
+  }
+
+  // Cache-first safe assets
+  if (
+    url.pathname.endsWith("/style.css") ||
+    url.pathname.endsWith("/manifest.json") ||
+    url.pathname.endsWith("/icon-192.png") ||
+    url.pathname.endsWith("/icon-512.png") ||
+    url.pathname.endsWith("/.nojekyll")
   ) {
     event.respondWith(cacheFirst(event.request));
     return;
   }
 
-  // Default: try network, fallback to cache
+  // Default network fallback
   event.respondWith(
     fetch(event.request).catch(async () => {
-      const cache = await caches.open(CACHE_NAME);
-      const cached = await cache.match(event.request);
-      return cached || new Response('Offline', { status: 503 });
+      const cache = await caches.open(CACHE);
+      return (await cache.match(event.request, { ignoreSearch: true })) ||
+        new Response("Offline", { status: 503 });
     })
   );
 });

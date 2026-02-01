@@ -1,12 +1,10 @@
 {
-  "name": "Gate & Locker Codes",
-  "short_name": "Codes",
-  "start_url": ".",
-  "scope": ".",
+  "name": "Amazon Flex \u2014 Gate & Locker Codes",
+  "short_name": "Gate Codes",
+  "start_url": "./",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#111",
-  "theme_color": "#111",
+  "background_color": "#0b0f14",
+  "theme_color": "#0b0f14",
   "icons": [
     {
       "src": "./icon-192.png",

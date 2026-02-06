@@ -1,81 +1,80 @@
-/**
- * Flex Gate Codes SW (bulletproof)
- * - Never cache index.html, app.js, data.json (prevents stale grouping/names)
- * - Cache style/icons/manifest for speed/offline
- */
-const VERSION = "v1";
-const CACHE = `flex-gate-codes-static-${VERSION}`;
-
-const STATIC = [
-  "./style.css",
-  "./manifest.json",
-  "./icon-192.png",
-  "./icon-512.png",
-  "./.nojekyll"
+/* Basic offline cache for Gate Codes PWA */
+const CACHE_NAME = 'gatecodes-v12';
+const CORE_ASSETS = [
+  './',
+  './index.html',
+  './style.css',
+  './app.js',
+  './manifest.json',
+  './data.csv',
+  './data.json',
+  './assets/icon-1024.png',
+  './assets/icon-120.png',
+  './assets/icon-128.png',
+  './assets/icon-144.png',
+  './assets/icon-152.png',
+  './assets/icon-16.png',
+  './assets/icon-167.png',
+  './assets/icon-180.png',
+  './assets/icon-192.png',
+  './assets/icon-256.png',
+  './assets/icon-32.png',
+  './assets/icon-384.png',
+  './assets/icon-48.png',
+  './assets/icon-512.png',
+  './assets/icon-72.png',
+  './assets/icon-96.png',
+  './assets/splash-1125x2436.png',
+  './assets/splash-1170x2532.png',
+  './assets/splash-1179x2556.png',
+  './assets/splash-1242x2688.png',
+  './assets/splash-1284x2778.png',
+  './assets/splash-1290x2796.png',
+  './assets/splash-640x1136.png',
+  './assets/splash-750x1334.png',
+  './assets/splash-828x1792.png',
+  './apple-touch-icon.png'
 ];
 
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.type === "SKIP_WAITING") self.skipWaiting();
-});
-
-self.addEventListener("install", (event) => {
+self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE).then((c) => c.addAll(STATIC)).catch(() => {})
+    caches.open(CACHE_NAME).then(cache => cache.addAll(CORE_ASSETS)).then(()=>self.skipWaiting())
   );
-  self.skipWaiting();
 });
 
-self.addEventListener("activate", (event) => {
-  event.waitUntil((async () => {
-    const keys = await caches.keys();
-    await Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)));
-    await self.clients.claim();
-  })());
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then(keys => Promise.all(
+      keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
+    )).then(()=>self.clients.claim())
+  );
 });
 
-async function cacheFirst(req) {
-  const cache = await caches.open(CACHE);
-  const cached = await cache.match(req, { ignoreSearch: true });
-  if (cached) return cached;
-  const res = await fetch(req);
-  if (res && res.ok) cache.put(req, res.clone());
-  return res;
-}
+self.addEventListener('fetch', (event) => {
+  const req = event.request;
 
-self.addEventListener("fetch", (event) => {
-  if (event.request.method !== "GET") return;
-  const url = new URL(event.request.url);
-  if (url.origin !== self.location.origin) return;
+  // Only handle GET
+  if(req.method !== 'GET') return;
 
-  // Never cache critical files
-  if (
-    url.pathname.endsWith("/") ||
-    url.pathname.endsWith("/index.html") ||
-    url.pathname.endsWith("/app.js") ||
-    url.pathname.endsWith("/data.json")
-  ) {
-    event.respondWith(fetch(event.request, { cache: "no-store" }));
-    return;
-  }
-
-  // Cache-first safe assets
-  if (
-    url.pathname.endsWith("/style.css") ||
-    url.pathname.endsWith("/manifest.json") ||
-    url.pathname.endsWith("/icon-192.png") ||
-    url.pathname.endsWith("/icon-512.png") ||
-    url.pathname.endsWith("/.nojekyll")
-  ) {
-    event.respondWith(cacheFirst(event.request));
-    return;
-  }
-
-  // Default network fallback
   event.respondWith(
-    fetch(event.request).catch(async () => {
-      const cache = await caches.open(CACHE);
-      return (await cache.match(event.request, { ignoreSearch: true })) ||
-        new Response("Offline", { status: 503 });
+    caches.match(req).then(cached => {
+      if(cached) return cached;
+
+      return fetch(req).then(res => {
+        // Cache same-origin successful responses
+        try{
+          const url = new URL(req.url);
+          if(url.origin === self.location.origin && res && res.ok){
+            const copy = res.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(req, copy));
+          }
+        }catch(_){}
+        return res;
+      }).catch(() => {
+        // fallback to cached index for navigation
+        if(req.mode === 'navigate') return caches.match('./index.html');
+        return cached;
+      });
     })
   );
 });
